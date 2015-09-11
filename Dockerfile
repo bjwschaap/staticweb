@@ -1,6 +1,7 @@
 # You can download that file from:                                                                                             
 # https://github.com/docker-training/staticweb
 FROM ubuntu:14.04
+ENV foo=bar
 MAINTAINER Docker Education Team <education@docker.com>
 
 RUN apt-get update
